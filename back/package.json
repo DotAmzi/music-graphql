@@ -1,0 +1,47 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/gulp"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.1.0",
+    "apollo-upload-server": "^7.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-add-middleware": "^0.3.0",
+    "graphql-tools": "^4.0.3",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.11",
+    "merge-graphql-schemas": "^1.5.0",
+    "mysql2": "^1.6.1",
+    "q": "^1.5.1",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-istanbul": "^0.12.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-node8": "^1.2.0",
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "nodemon": "^1.17.2"
+  },
+  "author": "Camilo Fernandes",
+  "license": "ISC"
+}
